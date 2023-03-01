@@ -1,0 +1,47 @@
+.headerElements{
+    top:110px;
+    height:1000px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.slider{
+    width: 1024px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.Images{
+    height:500px;
+    transition: all 1.5s ease-in-out ;
+    border-radius: none;
+    display: flex;   
+}
+
+.img{
+    height: 100%;
+    width: 100%;
+    border-radius: none;
+}
+
+
+
+
+
+
+
+
+.sliderElements{
+    display: flex;
+    justify-content: space-between;  
+    background-color: aqua;
+}
+.sliderArrow
+{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
