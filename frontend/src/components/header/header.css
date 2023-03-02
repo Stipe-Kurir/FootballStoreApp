@@ -1,10 +1,12 @@
 .headerElements{
     top:110px;
     height:1000px;
-    position: relative;
     display: flex;
-    justify-content: center;
+    position: relative;
+    justify-content: flex-start;
     background-color: antiquewhite;
+    flex-direction: column;
+    align-items: center;
 }
 
 .slider{
@@ -14,34 +16,101 @@
     flex-direction: column;
 }
 
-.Images{
+.sliderImages
+{
+    display: flex;
+    width:100%;
     height:500px;
-    transition: all 1.5s ease-in-out ;
-    border-radius: none;
-    display: flex;   
+    cursor: pointer;
 }
 
-.img{
-    height: 100%;
+
+.sliderImg{
     width: 100%;
-    border-radius: none;
+    height:100%;
 }
-
-
-
-
-
-
-
 
 .sliderElements{
     display: flex;
     justify-content: space-between;  
     background-color: aqua;
+    align-items: center;
+    height: 40px;
 }
+
 .sliderArrow
 {
     display: flex;
-    justify-content: center;
     gap:10px;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
+.arrowL
+{
+    transform: scaleX(-1);
+    cursor: pointer;    
+}
+.arrowR{
+    cursor: pointer;
+}
+.arrowL:hover{
+    scale:1.1;
+    transition:0.2s;
+}
+.arrowR:hover{
+    scale:1.1;
+    transition:0.2s;
+}
+
+.sliderPointers{
+padding: 10px;
+}
+
+.sliderPointer{
+    cursor: pointer;
+    padding: 5px;
+}
+.sliderPointer:hover{
+    scale:1.1;
+}
+
+.elementsSocial
+{
+    height: 70px;
+    width:1024px;
+    display: flex;
+    background-color: chocolate;
+}
+.elementsSocialWrapper{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infoElm
+{
+    width:256px;
+    height:100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+}
+
+.infoElm:hover{
+    transition: 0.2s;
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+.iconImg{
+    padding: 10px;
+}
+
+
+
