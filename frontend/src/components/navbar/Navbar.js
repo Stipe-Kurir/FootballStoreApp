@@ -255,28 +255,28 @@ const Navbar = () => {
 
                   <div className="typeSurface">
                      <div className="imgSurface">
-                      <img className="img" src="./images/trava.jpg"src="./images/trava.jpg" height="50px" width="50px" />
+                      <img className="img" src="./images/trava.jpg" height="50px" width="50px" />
                     </div>
                      <div   className="descSurface">Umjetna<br/> trava</div>
                      </div>
 
                     <div className="typeSurface">
                      <div className="imgSurface">
-                      <img className="img" src="./images/trava.jpg"src="./images/trava.jpg" height="50px" width="50px" />
+                      <img className="img" src="./images/trava.jpg" height="50px" width="50px" />
                      </div>
                      <div className="descSurface">Umjetna<br/> trava</div>
                     </div>
 
                     <div className="typeSurface">
                      <div className="imgSurface">
-                      <img className="img" src="./images/trava.jpg"src="./images/trava.jpg" height="50px" width="50px" />
+                      <img className="img" src="./images/trava.jpg" height="50px" width="50px" />
                      </div>
                      <div className="descSurface">Umjetna<br/> trava</div>
                     </div>
 
                      <div className="typeSurface">
                        <div className="imgSurface">
-                        <img className="img" src="./images/trava.jpg"src="./images/trava.jpg" height="50px" width="50px" />
+                        <img className="img" src="./images/trava.jpg" height="50px" width="50px" />
                        </div>
                       <div className="descSurface">Umjetna<br/> trava</div>
                      </div>

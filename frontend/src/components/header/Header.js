@@ -38,7 +38,7 @@ const Header = () => {
 
         <div className="slider">
             
-            <div className="sliderImages">
+            <div className="sliderImages" >
                 <img src={photos[index].src} alt="" className="sliderImg"/>
             </div>
 
@@ -53,7 +53,7 @@ const Header = () => {
                     <img onClick={()=>handleArrowClick("l")} src="./images/right-arrow.png" alt="icon" width="20px" height="20px"/>
                     </div>
                     <div className="arrowR">
-                    <img onClick={()=>handleArrowClick("r")}  src="./images/right-arrow.png" alt="icon" width="20px" height="20px"/>
+                    <img  onClick={()=>handleArrowClick("r")}  src="./images/right-arrow.png" alt="icon" width="20px" height="20px"/>
                     </div>
                 </div>
             </div>
