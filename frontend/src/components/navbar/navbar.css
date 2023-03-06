@@ -1,12 +1,14 @@
 .navbar
 {
+    height: 110px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     width:100%;
     z-index:999;
-    position:fixed;
+    position:sticky;
+    top: 0px;
 }
 .navContainerFirst{
     height:70px;

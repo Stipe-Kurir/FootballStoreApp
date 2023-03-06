@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../components/footer/Footer'
 import Header from '../../components/header/Header'
 import Navbar from '../../components/navbar/Navbar'
 import "./home.css"
@@ -61,11 +62,78 @@ const Home = () => {
         </div>
 
 
-      <div className="homepageBlog">Blog</div>
-    
-    
+      <div className="homepageBlog">
+        <div className="blogContainer">
+
+          <div className="blogTitle">
+            <div className="blogT">BLOG</div>
+            <div className="blogDesc">Pročitaj novosti, savjete i pronađi inspiraciju na našem blogu</div>
+            <div className="blogClick">PROČITAJ SVE</div>
+          </div>
+        
+          <div className="blogCards">
+
+            <div className="blogCardItem">
+              <div className='blogImg'>  
+              <img src="./images/dinersutorak.jpg" alt="" className="blogCardImg"/>
+              </div>
+              <div className="blogCardDesc">
+                <div className="blogDescTitle">D-UTORAK</div>
+                <div className="blogDescReadMore">
+                  <div className="blogDescReadMoreText">Pročitaj više</div>
+                  <img  className="blogDescReadMoreArrow"
+                  src="./images/right.png" 
+                  alt=" "
+                  height="12px"
+                  width="12px"/>
+                </div>
+              </div>
+            </div>
+
+            <div className="blogCardItem">
+              <div className='blogImg'>  
+              <img src="./images/cw_web.jpg" alt="" className="blogCardImg"/>
+              </div>
+              <div className="blogCardDesc">
+                <div className="blogDescTitle">CYBER WEEK</div>
+                <div className="blogDescReadMore">
+                  <div className="blogDescReadMoreText">Pročitaj više</div>
+                  <img  className="blogDescReadMoreArrow"
+                  src="./images/right.png" 
+                  alt=" "
+                  height="12px"
+                  width="12px"/>
+                </div>
+              </div>
+            </div>
+
+            <div className="blogCardItem">
+              <div className='blogImg'>  
+              <img src="./images/radna_vremena.jpg" alt="" className="blogCardImg"/>
+              </div>
+              <div className="blogCardDesc">
+                <div className="blogDescTitle">RADNO VRIJEME TRGOVINA</div>
+                <div className="blogDescReadMore">
+                  <div className="blogDescReadMoreText">Pročitaj više</div>
+                  <img  className="blogDescReadMoreArrow"
+                  src="./images/right.png" 
+                  alt=" "
+                  height="12px"
+                  width="12px"/>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          
+
+        </div>
+      </div>
      
      </div>
+
+    <Footer/>
 
     </div>
     
