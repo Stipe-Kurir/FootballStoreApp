@@ -1,0 +1,113 @@
+.footerContainer
+{
+    background-color: blueviolet;
+    height:700px;
+    display: flex;
+    justify-content: center;
+}
+
+.footerElements{
+    width:1024px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+}
+
+.footerTitle{
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.footerDesc{
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    justify-content: center;
+    gap: 20px;
+    padding-right: 80px;
+}
+
+.footerDescOne{
+    background-color: aqua;
+    text-align: right;
+    padding: 5px;
+}
+.footerDescOneTitle
+{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.footerDescOneInfo
+{
+    font-size: 12px;
+}
+
+.footerDescTwo{
+    background-color:brown;
+    text-align: left;
+    padding: 5px;
+}
+.footerDescTwoTitle
+{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.footerDescTwoInfo
+{
+    font-size: 12px;
+}
+
+.footerSlider{
+   width:100%;
+   height:150px;
+   background-color: blue; 
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   overflow: hidden;
+}
+
+.footerItems{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex: row;
+    align-items: center;
+    gap:20px;
+    perspective: 100px;
+    animation:scroll 10s linear infinite;
+}
+.footerItem
+{
+    width:240px;
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+.footerItems:hover{
+    animation-play-state: paused;
+}
+.footerImg{
+    width:100%;
+    height:100%;
+}
+.footerImg:hover{
+    scale: 1.1;
+    transition: 0.5s;
+}
+
+
+@keyframes scroll {
+    0%{
+        transform:translateX(0);
+    }
+    100%{
+        transform:translateX(calc(240px*2));
+    }
+}
