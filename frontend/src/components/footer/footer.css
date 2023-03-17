@@ -62,52 +62,83 @@
     font-size: 12px;
 }
 
-.footerSlider{
-   width:100%;
-   height:150px;
-   background-color: blue; 
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   align-items: center;
-   overflow: hidden;
-}
-
-.footerItems{
-    width:100%;
-    height:100%;
-    display: flex;
-    flex: row;
-    align-items: center;
-    gap:20px;
-    perspective: 100px;
-    animation:scroll 10s linear infinite;
-}
-.footerItem
-{
-    width:240px;
-    height: 90%;
-    display: flex;
-    align-items: center;
-}
-.footerItems:hover{
-    animation-play-state: paused;
-}
-.footerImg{
-    width:100%;
-    height:100%;
-}
-.footerImg:hover{
-    scale: 1.1;
-    transition: 0.5s;
-}
-
 
 @keyframes scroll {
-    0%{
-        transform:translateX(0);
+    0% {
+      transform: translateX(0);
     }
-    100%{
-        transform:translateX(calc(240px*2));
+    100% {
+      transform: translateX(calc(-250px * 4));
     }
+  }
+  
+  .sliderFooter {
+    height: 150px;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .sliderFooter::before,
+  .sliderFooter::after {
+    height: 150px;
+    width: 200px;
 }
+  
+  .sliderFooter::after {
+    transform: rotateZ(180deg);
+  }
+
+  .sliderFooter .slide-track {
+    animation: scroll 30s linear infinite;
+    display: flex;
+    width: calc(250px * 8);
+  }
+  
+  .sliderFooter .slide {
+    height: 150px;
+    width: 250px;
+  }
+
+  .footerInfo{
+    width:100%;
+    height: 300px;
+    background-color: brown;
+  }
+  .footerInfoItems
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30px;
+    background-color: aqua;
+    width: 100%;
+    height: 150px;
+  }
+  .footerInfoItem
+  {
+    height: 100%;
+    width:170px;
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+  }
+  .footerInfoItemTitle
+  {
+   padding: 10px;
+    text-transform: uppercase;
+  }
+  .footerInfoItemData
+  {
+    padding-left: 10px;
+    padding-bottom: 5px;
+  }
+
+  .footerMedia{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 10px;
+  }
+  .mediaInst:hover{
+    filter: invert(39%) sepia(58%) saturate(3062%) hue-rotate(298deg) brightness(100%) contrast(93%);
+  }

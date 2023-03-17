@@ -18,32 +18,61 @@ const Footer = () => {
             <div className="footerDescTwoInfo">Splitska 7<br/>PON/NED 9-21 h</div></div>
         </div>
 
-        <div className="footerSlider">
-          <div className="footerItems">
+<div className="sliderFooter">
+  <div className="slide-track">
+    <div className="slide">
+      <img src="./images/store1.jpg" height="150" width="250" alt="" />
+    </div>
+    <div className="slide">
+      <img src="./images/store2.jpg" height="150" width="250" alt="" />
+    </div>
+    <div className="slide">
+      <img src="./images/store3.jpg" height="150" width="250" alt="" />
+    </div>
+    <div className="slide">
+      <img src="./images/store4.jpg" height="150" width="250" alt="" />
+    </div>
+    <div className="slide">
+      <img src="./images/store1.jpg" height="150" width="250" alt="" />
+    </div>
+    <div className="slide">
+      <img src="./images/store2.jpg" height="150" width="250" alt="" />
+    </div>
+    <div className="slide">
+      <img src="./images/store3.jpg" height="150" width="250" alt="" />
+    </div>
+    <div className="slide">
+      <img src="./images/store4.jpg" height="150" width="250" alt="" />
+    </div>
+  </div>
+</div>
 
-            <div className="footerItem">
-             <img className="footerImg" src="./images/store1.jpg" alt=" "  ></img>
+        <div className="footerInfo">
+          <div className="footerInfoItems">
+            <div className='footerInfoItem'> 
+              <div className='footerInfoItemTitle'>O nama</div>
+              <div className='footerInfoItemData'>Kontakt</div>
+              <div className='footerInfoItemData'>Lokacije</div>
+              </div>
+            <div className='footerInfoItem'> 
+              <div className='footerInfoItemTitle'>Usluge</div>
+              <div className='footerInfoItemData'>Povrat i zamjena robe</div>
+              <div className='footerInfoItemData'>Poklon bonovi</div>
+              <div className='footerInfoItemData'>Kupi u poslovnici</div>
             </div>
-            <div className="footerItem">
-             <img className="footerImg" src="./images/store2.jpg" alt=" "  ></img>
+            <div className='footerInfoItem'> 
+              <div className='footerInfoItemTitle'>uvjeti i pravila</div>
+              <div className='footerInfoItemData'>Načini plaćanja</div>
+              <div className='footerInfoItemData'>Opći i uvjeti kupnje </div>
             </div>
-            <div className="footerItem">
-             <img className="footerImg" src="./images/store3.jpg" alt=" "  ></img>
-            </div>
-            <div className="footerItem">
-              <img className="footerImg" src="./images/store4.jpg" alt=" " ></img>
-            </div>
-            <div className="footerItem">
-             <img className="footerImg" src="./images/store3.jpg" alt=" "  ></img>
-            </div>
-            <div className="footerItem">
-              <img className="footerImg" src="./images/store4.jpg" alt=" " ></img>
-            </div>
-  
+          </div>
+          <div className='footerMedia'>
+            <div className='mediaLogo'><img className='mediaInst' src="./images/instagram.png" height="25px" width="25px"/></div>
+            <div className='mediaLogo'>INST</div>
+            <div className='mediaLogo'>INST</div>
+            <div className='mediaLogo'>INST</div>
           </div>
         </div>
-
-        <div className="footerInfo">INFO u stupcima</div>
       </div>
     </div>
   )
